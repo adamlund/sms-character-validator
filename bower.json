@@ -1,0 +1,15 @@
+{
+  "name": "sms-character-validator",
+  "authors": [
+    "adamlund <adam.lund@govdelivery.com>"
+  ],
+  "description": "JQuery plugin to highlight characters that consistently fail in SMS messsages",
+  "main": "js/validate_sms.js",
+  "moduleType": [],
+  "license": "BSD",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}

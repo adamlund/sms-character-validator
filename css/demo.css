@@ -1,0 +1,30 @@
+xmp, pre {
+    background-color: #333;
+    border-radius: 0 0 5px 5px;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    margin: 0;
+    overflow-x: auto;
+    padding: 3em;
+    word-wrap: break-word;
+  }
+.sms-custom-warning-css {
+    clear: both;
+    margin-top: 15px;
+    color: #fff;
+    background-color: #FF6600;
+    padding: 20px;
+    width: 510px;
+}
+.sms-custom-warning-css h2 {
+    color: #fff;
+    margin-top: 0px;
+}
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 768px;
+}

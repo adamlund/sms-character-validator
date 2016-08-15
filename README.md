@@ -7,7 +7,7 @@ Using a textarea Highlights characters out of the safe range for SMS messages to
 ### Character sets allowed or flagged
 1. Allowable characters include standard ASCII set (1-122)
 1. GSM 03.38 and unicode characters are flagged because often this results in splitting messages because characters take up double the space, reducing character count
-1. References: [Twilio SMS Unicode FAQ], [SMS character sets]
+1. References: [GSM spec], [SMS character sets]
 
 ===
 
@@ -75,5 +75,6 @@ Put these in a key/value object like in the above example.
 **sms_warning_message** default (long message)
 > Customize the text copy for the warning message. Can include HTML characters.
 
-[Twilio SMS Unicode FAQ]: <https://www.twilio.com/help/faq/sms/why-are-my-messages-with-unicode-being-split>
+
 [SMS character sets]: <https://www.csoft.co.uk/support/character-sets>
+[GSM spec]: https://en.wikipedia.org/wiki/GSM_03.38
